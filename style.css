@@ -12,6 +12,8 @@ body {
   background-color: #FEAB01; /* Background color for the join now section */
   padding: 20px 0;
   text-align: center;
+  width: 70%; /* Set the width to 70% */
+  margin: 0 auto; /* Center the container */
 }
 
 .join-now-btn {
@@ -318,4 +320,4 @@ footer {
 
 .col-md-6 {
   background-color: #3C1E59; /* Match navbar background color */
-}  
+}

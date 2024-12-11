@@ -3,91 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futura Labs</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Futura Labs - Software Training Institute</title>
+    
+    <!-- SEO and Social Media Meta Tags -->
+    <meta name="description" content="Kerala's No.1 Software Training Institute offering comprehensive courses in Coding, Design, and Digital Marketing">
+    <meta property="og:title" content="Futura Labs - Software Training Institute">
+    <meta property="og:type" content="education">
+    <meta property="og:url" content="https://www.futuralabs.com">
+    <meta property="og:image" content="https://i.ibb.co/R2dKPpz/logo.png">
+    <meta name="keywords" content="software training, coding courses, digital marketing, UI/UX design, Kerala">
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://i.ibb.co/R2dKPpz/logo.png" as="image">
+    <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" as="style">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid join-now-container">
+   
+    <div class="container-fluid join-now-container" role="banner">
         <div class="row justify-content-center align-items-center">
             <div class="col-auto">
-                <img src="https://i.ibb.co/7CFVBVS/star1.png" alt="star1" class="star-icon left-star">
+                <img src="https://i.ibb.co/7CFVBVS/star1.png" alt="Decorative star" class="star-icon left-star" loading="lazy">
             </div>
             <div class="col-auto">
-                <a href="#" class="join-now-btn">Join Now for Internship</a>
+                <a href="#contact" class="join-now-btn" aria-label="Join Now for Internship">Join Now for Internship</a>
             </div>
             <div class="col-auto">
-                <img src="https://i.ibb.co/7CFVBVS/star1.png" alt="star1" class="star-icon right-star">
+                <img src="https://i.ibb.co/7CFVBVS/star1.png" alt="Decorative star" class="star-icon right-star" loading="lazy">
             </div>
         </div>
     </div>
 
-    <header>
+   
+    <header role="navigation">
         <div class="navbar">
             <div class="logo">
-                <img src="https://i.ibb.co/R2dKPpz/logo.png" alt="logo">
+                <img src="https://i.ibb.co/R2dKPpz/logo.png" alt="Futura Labs Logo" loading="lazy">
             </div>
-            <nav>
+            <nav aria-label="Main Navigation">
                 <ul>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li class="dropdown">
-                        <a href="#">Courses</a>
+                        <a href="#courses" aria-haspopup="true">Courses</a>
                         <div class="dropdown-content">
                             <div class="dropdown-category">
-                                <a href="#">Coding</a>
+                                <a href="#coding-courses">Coding</a>
                                 <div class="dropdown-submenu">
-                                    <a href="#">Python– Django Fullstack</a>
-                                    <a href="#">Power BI</a>
-                                    <a href="#">Php Laravel Fullstack</a>
-                                    <a href="#">MERN Fullstack</a>
-                                    <a href="#">Flutter – Mobile App</a>
-                                    <a href="#">React JS</a>
-                                    <a href="#">Front End Development</a>
-                                    <a href="#">.NET</a>
-                                    <a href="#">Software Testing & QA</a>
-                                    <a href="#">Data Analytics</a>
-                                    <a href="#">Data Science</a>
+                                    <a href="#python-django">Python– Django Fullstack</a>
+                                    <a href="#power-bi">Power BI</a>
+                                    <a href="#php-laravel">Php Laravel Fullstack</a>
+                                    <a href="#mern-stack">MERN Fullstack</a>
+                                    <a href="#flutter">Flutter – Mobile App</a>
+                                    <a href="#react-js">React JS</a>
+                                    <a href="#front-end">Front End Development</a>
+                                    <a href="#dotnet">.NET</a>
+                                    <a href="#testing">Software Testing & QA</a>
+                                    <a href="#data-analytics">Data Analytics</a>
+                                    <a href="#data-science">Data Science</a>
                                 </div>
                             </div>
                             <div class="dropdown-category">
-                                <a href="#">Design</a>
+                                <a href="#design-courses">Design</a>
                                 <div class="dropdown-submenu">
-                                    <a href="#">UI/UX Designing</a>
-                                    <a href="#">Graphic Designing</a>
+                                    <a href="#ui-ux">UI/UX Designing</a>
+                                    <a href="#graphic-design">Graphic Designing</a>
                                 </div>
                             </div>
                             <div class="dropdown-category">
-                                <a href="#">Digital Marketing</a>
+                                <a href="#digital-marketing">Digital Marketing</a>
                                 <div class="dropdown-submenu">
-                                    <a href="#">Digital Marketing</a>
+                                    <a href="#digital-marketing-full">Digital Marketing</a>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li><a href="#">Placements</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Coding Club</a></li>
-                    <li><a href="#" class="contact-us-btn">Contact</a></li>
+                    <li><a href="#placements">Placements</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#coding-club">Coding Club</a></li>
+                    <li><a href="#contact" class="contact-us-btn">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Main Section -->
-    <main>
+    <!-- Main Section with Improved Semantics -->
+    <main role="main">
         <div class="container mt-5">
             <div class="row">
-                <!-- Left Box for Carousel -->
+                <!-- Left Box for Content -->
                 <div class="col-md-6">
                     <div id="carouselExample" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="container">
                                     <h1>Kerala's No.1 Software Training Institute</h1>
-                                    <div class="locations">Calicut (Kozhikode) | Kochi (Cochin)</div>
+                                    <div class="locations" aria-label="Institute Locations">Calicut (Kozhikode) | Kochi (Cochin)</div>
                                     <div class="buttons">
-                                        <a href="#" class="button">Enquire now</a>
-                                        <a href="#" class="button">Call now</a>
+                                        <a href="#enquiry" class="button" aria-label="Enquire about courses">Enquire now</a>
+                                        <a href="tel:+91-contactnumber" class="button" aria-label="Call institute">Call now</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,22 +113,22 @@
 
                 <!-- Right Box for Images -->
                 <div class="col-md-6 position-relative">
-                    <img src="https://i.ibb.co/PW7R399/banner.png" class="img-fluid zoom-banner" alt="Banner">
-                    <img src="https://i.ibb.co/LgW0h50/placement.png" class="position-absolute rotate-placement" style="bottom: 0; left: 0;" alt="placement.png">
-                    <img src="https://i.ibb.co/4R72N5T/200.png" class="position-absolute zoom-200" style="top: 0; right: 0;" alt="200.png">
+                    <img src="https://i.ibb.co/PW7R399/banner.png" class="img-fluid zoom-banner" alt="Futura Labs Training Banner" loading="lazy">
+                    <img src="https://i.ibb.co/LgW0h50/placement.png" class="position-absolute rotate-placement" style="bottom: 0; left: 0;" alt="Placement Opportunities" loading="lazy">
+                    <img src="https://i.ibb.co/4R72N5T/200.png" class="position-absolute zoom-200" style="top: 0; right: 0;" alt="200+ Successful Batches" loading="lazy">
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="text-center mt-5">
-        <p>&copy; 2023 Futura Labs. All rights reserved.</p>
+    <!-- Footer with Copyright -->
+    <footer role="contentinfo" class="text-center mt-5">
+        <p>&copy; 2024 Futura Labs. All rights reserved.</p>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Optimized Script Loading -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
 </body>
 </html>
