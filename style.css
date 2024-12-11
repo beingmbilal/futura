@@ -321,3 +321,43 @@ footer {
 .col-md-6 {
   background-color: #3C1E59; /* Match navbar background color */
 }
+
+.banner-container {
+  position: relative;
+}
+
+.banner-container img:not(.img-fluid) {
+  z-index: -1;
+}
+
+.arrow-left {
+  animation: arrow-left-animation 2s infinite;
+}
+
+.arrow-right {
+  animation: arrow-right-animation 2s infinite;
+}
+
+@keyframes arrow-left-animation {
+  0% {
+      transform: translateY(-50%) translateX(-10px);
+  }
+  50% {
+      transform: translateY(-50%) translateX(0px);
+  }
+  100% {
+      transform: translateY(-50%) translateX(-10px);
+  }
+}
+
+@keyframes arrow-right-animation {
+  0% {
+      transform: translateY(-50%) translateX(10px);
+  }
+  50% {
+      transform: translateY(-50%) translateX(0px);
+  }
+  100% {
+      transform: translateY(-50%) translateX(10px);
+  }
+}
